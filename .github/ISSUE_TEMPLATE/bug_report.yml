@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in Evidence Checklist is not working as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "This tracker is public. Do not include student names, photos, evidence files or other personal information."
+  - type: input
+    id: moodle
+    attributes:
+      label: Moodle version
+      placeholder: "e.g. 4.5.3"
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Evidence Checklist version
+      placeholder: "e.g. 1.2.1"
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Theme, browser and device
+      placeholder: "e.g. Boost, Chrome 130, iPad"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open the activity as an assessor\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected and what happened
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or error messages
+      description: Turn on developer debugging to see the full error, and remove any personal information.

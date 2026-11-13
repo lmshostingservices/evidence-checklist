@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://lms-labs.com
+    about: How to set up and use Evidence Checklist.
+  - name: Security issue
+    url: https://lms-labs.com
+    about: Please report security problems privately through the contact page, not here.
